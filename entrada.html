@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projeto senac</title>
+
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+   
+  </head>
+  <body>
+    <!-- menu-->
+    <div class="container-fluid">
+    <img src="imagem/logo.png" id="logo" class="img-responsive">
+      <div class="jumbotron text-center">
+        <h1>Atacado & Varejo</h1>
+          <form class="form-inline">
+              <div class="input-group">
+                  <input type="email" class="form-control" size="50" placeholder=" Pesquisa...." required>
+                  <div class="input-group-btn">
+                      <button type="button" class="btn btn-danger">Pesquisar</button>
+                  </div>
+              </div>
+          </form>
+    </div>
+    <!--inicio  menu fixo icones--> 
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">S.O.S PÃO</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">HOME</a></li>
+      <li><a href="sobre.html">SOBRE</a></li>
+      <li><a href="galeria.html">GALERIA</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="form.html"><span class="glyphicon glyphicon-user"></span>Cadastre-se</a></li>
+      <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span>Entrar</a></li>
+    </ul>
+  </div>
+</nav>
+<!--iniciando o formulario de entrada aqui -->
+<form>
+    <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="email">Nome</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Senha:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Lembrar</label>
+  </div>
+  <button type="submit" class="btn btn-default">Entrar</button>
+      
+    </div>
+    <div class="row" style="margin:2px; ">
+       <div class="col-sm-3">
+         <img src="imagem/img05.jpg" alt="S.O.S PÃO " class="img-responsive">
+         <img src="imagem/img02.jpg" style="margin-top: 8px; margin-right: 0px;" alt="S.O.S PÃO " class="img-responsive img-circle">
+       </div><!--Fim da col-->
+
+          <div class="col-sm-3">
+          <img src="imagem/img03.jpg" alt="S.O.S PÃO " class="img-circle img-responsive">
+
+          <img src="imagem/img04.jpg" alt="S.O.S PÃO " style="margin-top: 10px;" class="img-responsive">
+        
+        </div><!--Fim da col-->           
+       </div><!--fim da row-->            
+    </div><!--fim da row-->   
+</form><!--Fim do formulario de  entrada-->
+<!--===========================================================================================-->
+<!--roda pé-->
+<footer id="rodape">
+  <p class="text-center" style="color: white;">TODOS OS DIREITOS RESERVADOS! Desenvolvido em  2017</p>
+    
+</footer>
+</div><!--fim da row-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
